@@ -47,13 +47,8 @@ body{
     margin: 0 auto;
 }
 
-#firstName{
-    width: 230px;
-    max-width: 100%;
-}
-#lastName{
-    width: 230px;
-    max-width: 100%;
+#form1{
+    background-color: #E4DFD7;
 }
 #email{
     width: 483px;
