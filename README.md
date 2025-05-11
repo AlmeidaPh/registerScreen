@@ -1,14 +1,14 @@
-### Sobre o projeto
+### 📋 Sobre o projeto
 Este é um projeto pessoal de uma tela de registro (Register Screen) desenvolvida com HTML e CSS, baseada em um layout criado no Figma. O objetivo é praticar e aprimorar habilidades de front-end, com possíveis implementações futuras em JavaScript.
 
-### Tecnologias utilizadas
-Figma: Prototipagem do design.<br>
-HTML5: Estrutura semântica do formulário.<br>
-CSS3: Estilização com Flexbox e responsividade (em desenvolvimento).<br>
-(Futuramente) JavaScript: Validação de formulário e interações.
+### 🛠️ Tecnologias utilizadas
+**Figma**: Prototipagem do design.<br>
+**HTML5**: Estrutura semântica do formulário.<br>
+**CSS3**: Estilização com Flexbox e responsividade (em desenvolvimento).<br>
+**JavaScript**: Futuramente para validação de formulário e interações.
 
 <div>
-  <img src="imgs/registerScreen.png" alt="Tela de Registro" width="500">
+  <img src="imgs/registerScreen.png" alt="Tela de Registro" width="100%">
 </div> <br>
 
 ### Próximos passos
