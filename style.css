@@ -1,0 +1,28 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #06275A;
+}
+
+
+.card{
+    background-color: #041E3F;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 50px;
+    width: 1280px;
+    height: 670px;
+    display: flex;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+
+}
+

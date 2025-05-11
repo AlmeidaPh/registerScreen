@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Screen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="conteiner" class="conteiner">
+        <div class="card">
+            <div id="cardImg">
+                <img src="imgs/banner1.png" alt="banner1">   
+            </div>
+            <div id="cardForm">
+                <!--- Estou em duvida se uso <table> ou grid para fazer o formulario de registro --->
+                <h1>Create an account</h1>
+                <p>Already have a account? log in</p>
+                <form method="get">
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                    <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <input type="checkbox" name="termEcondicions" id="termEcondicions"><p>I agree to the Terms & Condicions</p>
+                    <button type="submit" id="btnCreateAct" name="btnCreateAct">Create a account</button>  
+                </form> 
+                <label>Or register with</label>      
+                <button type="button" id="btnGoogle" name="btnGoogle">
+                <img src="imgs/google.512x512.png" alt="image logotipo Google">
+                <label>Google</label>
+                </button>        
+                <button type="button" id="btnIos" name="btnIos">
+                <img src="imgs/apple.430x512.png" alt="image logotipo Ios">
+                <label>Apple</label>
+                </button>    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
