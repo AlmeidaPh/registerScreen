@@ -14,7 +14,7 @@ CSS3: Estilização com Flexbox e responsividade (em desenvolvimento).<br>
     title="registerScreen" 
     width="500px" 
     style="padding-right: 10px;"
-/>
+/> <br>
 
 ### Próximos passos
 - Implementar efeitos de hover nos botões.
