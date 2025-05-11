@@ -17,49 +17,57 @@
                 
                 <table>
                     <form method="get">
-                        <tr>
-                            <td colspan="2"><h1>Create an account</h1></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><p>Already have a account? log in</p></td>
-                        </tr>
-                        <tr>
-                            <td><input type="text" name="firstName" id="firstName" placeholder="First Name"></td>
-                            <td><input type="text" name="lastName" id="lastName" placeholder="Last Name"></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><input type="email" name="email" id="email" placeholder="Email"></td>
-                        </tr> 
-                        <tr>
-                            <td colspan="2"><input type="password" name="password" id="password" placeholder="Password"></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><input type="checkbox" name="termEcondicions" id="termEcondicions"><p>I agree to the Terms & Condicions</p></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><button type="submit" id="btnCreateAct" name="btnCreateAct">Create a account</button></td>
-                        </tr>
+                        <div id="form1">
+                            <tr>
+                                <td colspan="2"><h1>Create an account</h1></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><p>Already have a account? log in</p></td>
+                            </tr>                            
+                        </div>
+                        <div id="form2">
+                            <tr>
+                                <td><input type="text" name="firstName" id="firstName" placeholder="First Name"></td>
+                                <td><input type="text" name="lastName" id="lastName" placeholder="Last Name"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="email" name="email" id="email" placeholder="Email"></td>
+                            </tr> 
+                            <tr>
+                                <td colspan="2"><input type="password" name="password" id="password" placeholder="Password"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="termEcondicions" id="termEcondicions"></td>
+                                <td id="pTermsEcondicions"><p>I agree to the Terms & Condicions</p></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><button type="submit" id="btnCreateAct" name="btnCreateAct">Create a account</button></td>
+                            </tr>                            
+                        </div>
                     </form> 
-                    <tr>
-                        <td colspan="2"><label>Or register with</label></td>
-                    </tr>
-                    <tr>
-                        <td> 
-                            <button type="button" id="btnGoogle" name="btnGoogle">
-                                <img src="imgs/google.512x512.png" alt="image logotipo Google">
-                                <label>Google</label>
-                            </button>
-                        </td>
-                        <td>
-                            <button type="button" id="btnIos" name="btnIos">
-                                <img src="imgs/apple.430x512.png" alt="image logotipo Ios">
-                                <label>Apple</label>
-                            </button>
-                        </td>
-                    </tr>
+                    <div id="form3">
+                        <tr>
+                            <td colspan="2"><label>Or register with</label></td>
+                        </tr>
+                        <tr>
+                            <td> 
+                                <button type="button" id="btnGoogle" name="btnGoogle">
+                                    <img src="imgs/google.512x512.png" alt="image logotipo Google">
+                                    <label>Google</label>
+                                </button>
+                            </td>
+                            <td>
+                                <button type="button" id="btnIos" name="btnIos">
+                                    <img src="imgs/apple.430x512.png" alt="image logotipo Ios">
+                                    <label>Apple</label>
+                                </button>
+                            </td>
+                        </tr>                        
+                    </div>
                 </table>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
