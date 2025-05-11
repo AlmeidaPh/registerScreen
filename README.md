@@ -7,7 +7,7 @@ HTML5: Estrutura semântica do formulário.<br>
 CSS3: Estilização com Flexbox e responsividade (em desenvolvimento).<br>
 (Futuramente) JavaScript: Validação de formulário e interações.
 
-<div align="center">
+<div>
   <img src="imgs/registerScreen.png" alt="Tela de Registro" width="500">
 </div> <br>
 
