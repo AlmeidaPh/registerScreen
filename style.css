@@ -6,23 +6,43 @@
 
 body{
     background-color: #06275A;
+    color: #E4DFD7;
 }
 
 
-.card{
+#card{
     background-color: #041E3F;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin: 50px;
-    width: 1280px;
-    height: 670px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 45px;
     display: flex;
 }
 
-img{
-    width: 250px;
-    height: 250px;
-
+#cardImg img{
+    width: 420px;
+    height: auto;
+    margin: 25px;
+    margin-left: 40px;
+    border-radius: 15px;
 }
 
+#cardForm{
+    width: 500px;
+    height: auto;
+    margin: 30px;
+    padding: 30px;
+    align-items: center;    
+}
+
+#cardFomr input[checkbox]{
+    position: start
+}
+
+#cardForm input{
+    width: 100%;
+}
+
+#cardForm img{
+    width: 200px;
+    height: auto;
+}

@@ -8,31 +8,56 @@
 </head>
 <body>
     <div id="conteiner" class="conteiner">
-        <div class="card">
+        <div id="card">
             <div id="cardImg">
-                <img src="imgs/banner1.png" alt="banner1">   
+                <img src="imgs/banner1.png" alt="banner1" id="img1">   
             </div>
             <div id="cardForm">
                 <!--- Estou em duvida se uso <table> ou grid para fazer o formulario de registro --->
-                <h1>Create an account</h1>
-                <p>Already have a account? log in</p>
-                <form method="get">
-                    <input type="text" name="firstName" id="firstName" placeholder="First Name">
-                    <input type="text" name="lastName" id="lastName" placeholder="Last Name">
-                    <input type="email" name="email" id="email" placeholder="Email">
-                    <input type="password" name="password" id="password" placeholder="Password">
-                    <input type="checkbox" name="termEcondicions" id="termEcondicions"><p>I agree to the Terms & Condicions</p>
-                    <button type="submit" id="btnCreateAct" name="btnCreateAct">Create a account</button>  
-                </form> 
-                <label>Or register with</label>      
-                <button type="button" id="btnGoogle" name="btnGoogle">
-                <img src="imgs/google.512x512.png" alt="image logotipo Google">
-                <label>Google</label>
-                </button>        
-                <button type="button" id="btnIos" name="btnIos">
-                <img src="imgs/apple.430x512.png" alt="image logotipo Ios">
-                <label>Apple</label>
-                </button>    
+                
+                <table>
+                    <form method="get">
+                        <tr>
+                            <td colspan="2"><h1>Create an account</h1></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><p>Already have a account? log in</p></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="firstName" id="firstName" placeholder="First Name"></td>
+                            <td><input type="text" name="lastName" id="lastName" placeholder="Last Name"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="email" name="email" id="email" placeholder="Email"></td>
+                        </tr> 
+                        <tr>
+                            <td colspan="2"><input type="password" name="password" id="password" placeholder="Password"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="checkbox" name="termEcondicions" id="termEcondicions"><p>I agree to the Terms & Condicions</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button type="submit" id="btnCreateAct" name="btnCreateAct">Create a account</button></td>
+                        </tr>
+                    </form> 
+                    <tr>
+                        <td colspan="2"><label>Or register with</label></td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <button type="button" id="btnGoogle" name="btnGoogle">
+                                <img src="imgs/google.512x512.png" alt="image logotipo Google">
+                                <label>Google</label>
+                            </button>
+                        </td>
+                        <td>
+                            <button type="button" id="btnIos" name="btnIos">
+                                <img src="imgs/apple.430x512.png" alt="image logotipo Ios">
+                                <label>Apple</label>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
