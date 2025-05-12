@@ -14,7 +14,7 @@ body{
     background-color: #041E3F;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin: 100px;
+    margin: 150px;
     margin-top: 90px;
     display: flex;
     align-items: center;
@@ -23,58 +23,164 @@ body{
     height: 0 auto;
 }
 
+p{
+    font-size: 17px;
+}
+
+#titulo{
+    font-size: 48px;
+}
+
+a{
+    color: #E4DFD7;
+}
+
 
 #cardImg img{
-    width: 420px;
-    height: auto;
-    margin: 25px;
-    margin-left: 40px;
+    width: 502px;
+    height: 733px;
+    padding: 30px;
     border-radius: 15px;
 }
 
 #cardForm{
-    width: 500px;
-    height: auto;
+    padding: 70px;
+    width: 550px;
+    max-width: 100%x;
+    height: 0 auto;
     margin: 0 auto;
-    margin-left: 100px;
-    padding: 30px;
     flex-direction: column;
+    overflow: hidden; /* Impede que elementos vazem */
+    box-sizing: border-box; /* Considera padding na largura total */
 }
 
-#cardForm table{
-    max-width: 100%;
-    width: auto;
-    margin: 0 auto;
+#cardForm table {
+    border-collapse: separate;
+    border-spacing: 0 20px; /* Espaçamento vertical entre linhas */
 }
 
-#form1{
-    background-color: #E4DFD7;
-}
-#email{
-    width: 483px;
-    max-width: 100%;
-}
-#password{
-    width: 483px;
-    max-width: 100%;
+
+#cardForm table tr:nth-child(3) td {
+    padding: 0 10px; /* Espaçamento entre colunas */
+    width: 210px;
+    height: 60px;
+    box-sizing: border-box;
 }
 
-#termEcondicions {
-    width: 18px;
-    height: 18px;
+#cardForm table td {
+    vertical-align: middle; /* Centraliza verticalmente */
+}
+
+
+#cardFomr div{
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #133864;
+    color: #fff;      
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #001226;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #a0a0a0;
+}
+
+
+
+input[type="checkbox"] {
     margin-right: 10px;
-    vertical-align: middle;
 }
 
-/*
-#pTerEcondicions{
+#cardForm input:not([type="checkbox"]),
+#cardForm button {
+    max-width: 100%;
+    box-sizing: border-box; /* Inclui padding/border na largura */
+}
+
+#cardForm table tr td[colspan="2"] {
+    width: 100%;
+}
+
+button[type="submit"]{
+    background-color: #001226;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#btnGoogle{
+    background-color: #001226;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+    width: 100%;
+    font-size: 21px;
+    transition: background-color 0.3s ease;
+}
+
+#btnIos{
+    background-color: #001226;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+    width: 100%;
+    font-size: 21px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+#btnGoogle,
+#btnIos {   
     display: flex;
-    text-align: start;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff;
+    color: #333;
+    height: 0 auto;
 }
-Estou tentando alinhar o formulário
-*/
 
-#cardForm img{
-    width: 200px;
-    height: auto;
+#btnGoogle img{
+    width: 35px;
+}
+
+#btnGoogle img{
+    width: 35px;
+}
+
+#btnGoogle:hover,
+#btnIos:hover {
+    background-color: #e6e6e6;
+}
+
+#btnGoogle img,
+#btnIos img {
+    width: 20px;
+    height: 20px;
 }
